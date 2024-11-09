@@ -40,7 +40,7 @@ const Skills = () => {
                 </div>
                 <div className="progress">
                   <div className="progress-bar partial"></div>
-                  <p className="percentage">70%</p>
+                  <p className="percentage">60%</p>
                 </div>
               </div>
             </div>
