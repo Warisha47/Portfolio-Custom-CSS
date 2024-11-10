@@ -1,111 +1,115 @@
 /* General Styles */
 .projects-wrapper {
-    background-color: #f9fafb; /* Light background color */
-    padding: 40px 0;
-  }
-  
-  .projects-section {
-    font-family: Arial, sans-serif;
-    color: #4b5563; /* Text color */
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px; /* Padding for the container */
-  }
-  
-  .section-header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .section-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #1f2937; /* Dark text color */
-  }
-  
-  .projects-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px; /* Space between project cards */
-    margin-top: -80px; /* Adjusted margin-top for the overlap effect */
-  }
-  
-  .project-card {
-    position: relative;
-    width: 30%;
-    cursor: pointer;
-  }
-  
-  .project-image {
-    position: relative;
+  background-color: #f9fafb; /* Light background color */
+  padding: 40px 0;
+  margin-top: 50px;
+}
 
-  }
+.projects-section {
+  font-family: Arial, sans-serif;
+  color: #4b5563; /* Text color */
+  margin-top: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; /* Padding for the container */
   
-  .image-cover {
-    width: 100%;
-    height:auto;
-    object-fit:cover;
-    object-position: center;
-    
-    
-  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+
+.section-title {
+  font-size: 42px;
+  font-weight: 600;
+  color: #1f2937; /* Dark text color */
   
-  .project-details {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 20px;
-    background-color: white;
-    border: 4px solid #e5e7eb; /* Light gray border */
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between project cards */
+  margin-top: -80px; /* Adjusted margin-top for the overlap effect */
+}
+
+.project-card {
+  position: relative;
+  width: 30%;
+  cursor: pointer;
+}
+
+.project-image {
+  position: relative;
+
+}
+
+.image-cover {
+  width: 100%;
+  height:auto;
+  object-fit:cover;
+  object-position: center;
   
-  .project-card:hover .project-details {
-    opacity: 1;
-  }
   
-  .project-category {
-    font-size: 14px;
-    font-weight: 500;
-    color: #f97316; /* Orange color */
-    margin-bottom: 8px;
+}
+
+.project-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: white;
+  border: 4px solid #e5e7eb; /* Light gray border */
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-card:hover .project-details {
+  opacity: 1;
+}
+
+.project-category {
+  font-size: 14px;
+  font-weight: 500;
+  color: #f97316; /* Orange color */
+  margin-bottom: 8px;
+}
+
+.project-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1f2937; /* Dark text color */
+  margin-bottom: 12px;
+}
+
+.project-description {
+  font-size: 16px;
+  color: #6b7280; /* Light gray text */
+  margin-bottom: 12px;
+}
+
+.project-link {
+  font-size: 16px;
+  color: #f97316; /* Orange color */
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.project-link:hover {
+  color: #d86a16; /* Darker shade of orange for hover */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .project-card {
+    width: 100%; /* Stack the project cards vertically on small screens */
   }
-  
-  .project-title {
-    font-size: 20px;
-    font-weight: 600;
-    color: #1f2937; /* Dark text color */
-    margin-bottom: 12px;
-  }
-  
-  .project-description {
-    font-size: 16px;
-    color: #6b7280; /* Light gray text */
-    margin-bottom: 12px;
-  }
-  
-  .project-link {
-    font-size: 16px;
-    color: #f97316; /* Orange color */
-    text-decoration: underline;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-  
-  .project-link:hover {
-    color: #d86a16; /* Darker shade of orange for hover */
-  }
-  
-  /* Responsive Design for Smaller Screens */
-  @media (max-width: 768px) {
-    .project-card {
-      width: 100%; /* Stack the project cards vertically on small screens */
-    }
-  }
-  
+}

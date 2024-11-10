@@ -77,7 +77,8 @@
   }
   
   .navbar-button:hover {
-    background-color: #F97316; /* hover:bg-orange-500 */
+    background-color:orange;
+    
   }
   
   .navbar-icon {
