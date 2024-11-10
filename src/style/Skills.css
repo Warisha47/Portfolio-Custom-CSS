@@ -1,5 +1,6 @@
 .skills-section {
-  color: #4b5563; /* Gray text */
+  color: #4b5563;
+  /* Gray text */
 }
 
 .container {
@@ -11,20 +12,27 @@
 .header {
   text-align: center;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+      margin-left: 25px;
 }
 
 .title {
   font-size: 0.875rem;
-  color: #f97316; /* Orange */
+  color: #f97316;
+  /* Orange */
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 500;
+  
 }
 
 .subtitle {
   font-size: 2rem;
   font-weight: 500;
-  color: #1f2937; /* Dark gray */
+  color: #1f2937;
+  /* Dark gray */
 }
 
 /* Skills wrapper for responsive layout */
@@ -42,15 +50,21 @@
   padding: 2rem;
 }
 
-@media (min-width: 640px) { /* Small screens (sm) */
+@media (min-width: 640px) {
+
+  /* Small screens (sm) */
   .skill-item {
-      max-width: calc(50% - 1rem); /* Two columns */
+    max-width: calc(50% - 1rem);
+    /* Two columns */
   }
 }
 
-@media (min-width: 1024px) { /* Large screens (lg) */
+@media (min-width: 1024px) {
+
+  /* Large screens (lg) */
   .skill-item {
-      max-width: calc(33.333% - 1rem); /* Three columns */
+    max-width: calc(33.333% - 1rem);
+    /* Three columns */
   }
 }
 
@@ -58,7 +72,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #f3f4f6; /* Light gray */
+  background-color: #f3f4f6;
+  /* Light gray */
   padding: 2rem;
   border-radius: 0.5rem;
 }
@@ -75,7 +90,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #f97316; /* Orange */
+  background-color: #f97316;
+  /* Orange */
   color: white;
   border-radius: 9999px;
   font-size: 1.25rem;
@@ -84,7 +100,8 @@
 
 .skill-title {
   font-size: 1.125rem;
-  color: #1f2937; /* Dark gray */
+  color: #1f2937;
+  /* Dark gray */
   font-weight: 600;
 
 }
@@ -92,159 +109,46 @@
 .progress {
   position: relative;
   height: 0.25rem;
-  background-color: #d1d5db; /* Gray for background bar */
+  background-color: #d1d5db;
+  /* Gray for background bar */
   border-radius: 0.5rem;
   margin-top: 0.5rem;
+
 
 }
 
 .progress-bar {
   position: absolute;
   height: 100%;
-  background-color: #ea580c; /* Dark orange */
+  background-color: #ea580c;
+  /* Dark orange */
   border-radius: 0.5rem;
-  
-  
+
 }
 
-.progress-bar.level-70 {
+.progress-bar.partial {
   width: 70%;
+
+  position: absolute;
+
 }
 
-.progress-bar.level-60 {
+.progress-bar.half {
   width: 60%;
+
+  position: absolute;
 }
 
-.progress-bar.level-50 {
+.progress-bar {
   width: 50%;
+  position: absolute;
 }
 
 .percentage {
   font-weight: bold;
-  
-  color: #ea580c; /* Dark orange */
+
+  color: #ea580c;
+  /* Dark orange */
   text-align: right;
   margin-top: 0.25rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

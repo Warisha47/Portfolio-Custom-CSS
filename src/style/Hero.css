@@ -2,7 +2,9 @@
  .hero-section {
   background-color: #FFEDD5; /* bg-orange-200 */
   font-family: 'Arial', sans-serif;
-  padding: 96px 0; /* padding-24 equivalent (6rem) */
+  padding: 96px  0 ; /* padding-24 equivalent (6rem) */
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .hero-container {
@@ -11,7 +13,8 @@
   align-items: flex-start;
   justify-content: center;
   max-width: 1200px;
-  margin: 0 auto;
+  
+  padding: auto;
 }
 
 @media (min-width: 1024px) {
